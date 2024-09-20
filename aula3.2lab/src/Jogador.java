@@ -15,10 +15,10 @@ public class Jogador {
 
     public void atacar(Jogador alvo){
 
-        if(this.energia > this.arma.custoDeEnergia){
+        if(this.energia > this.arma.getCustoDeEnergia()){
             System.out.println("O ataque está sendo realizado. ");
-            alvo.vida -= this.arma.dano;
-            this.energia -= this.arma.custoDeEnergia;
+            alvo.vida -= this.arma.getDano();
+            this.energia -= this.arma.getCustoDeEnergia();
             System.out.println("Vida do alvo após ataque: " + alvo.vida);
             System.out.println("Energia do jogador após ataque: " + this.energia);
         }
@@ -30,6 +30,6 @@ public class Jogador {
     void mostraInfo(){
         System.out.println("Energia: " + this.energia);
         System.out.println("Vida: " + this.vida);
-        System.out.println("Informações da arma obtida: Custo de uso de " + this.arma.custoDeEnergia + " e dano de " + this.arma.dano);
+        System.out.println("Informações da arma obtida: Custo de uso de " + this.arma.getCustoDeEnergia() + " e dano de " + this.arma.getDano());
     }
 }
