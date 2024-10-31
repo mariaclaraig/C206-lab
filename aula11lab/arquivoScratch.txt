@@ -1,0 +1,12 @@
+Jogo: { ID: 1, Nome: Tetris, Preço: 9.0 }
+Jogo: { ID: 2, Nome: Campo Minado, Preço: 5.0 }
+Jogo: { ID: 3, Nome: Paciência, Preço: 1.0 }
+Jogo: { ID: 1, Nome: Tetris, Preço: 9.9 }
+Jogo: { ID: 2, Nome: Campo Minado, Preço: 5.9 }
+Jogo: { ID: 3, Nome: Paciência, Preço: 10.9 }
+Jogo: { ID: 1, Nome: Tetris, Preço: 9.9 }
+Jogo: { ID: 2, Nome: Campo Minado, Preço: 5.9 }
+Jogo: { ID: 3, Nome: Paciência, Preço: 10.9 }
+Jogo: { ID: 1, Nome: Tetris, Preço: 9.9 }
+Jogo: { ID: 2, Nome: Campo Minado, Preço: 5.9 }
+Jogo: { ID: 3, Nome: Paciência, Preço: 10.9 }
